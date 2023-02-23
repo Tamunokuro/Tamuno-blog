@@ -20,3 +20,14 @@
     text-align: center;
     border-bottom: 2px solid #fff;
 }
+
+@media screen and (max-width: 800px) {
+    .community-item {
+        width: 80vw
+    }
+
+    .community-item button {
+        float: right;
+    }
+    
+}
