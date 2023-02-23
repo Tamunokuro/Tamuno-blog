@@ -1,0 +1,23 @@
+:root {
+    --primary: #050541;
+}
+
+.blog--footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+    width: 99vw;
+    color: #fff;
+    height: 60vh;
+    background-color: var(--primary);
+}
+
+.blog-footer-header {
+    display: flex;
+    gap: 10px
+}
+
+.blog--footer-links {
+    display: flex;
+    gap: 5rem;
+}
