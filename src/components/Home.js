@@ -4,7 +4,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
-// import Form from 'react-bootstrap/Form';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import Blogs from './Blogs';
@@ -12,6 +11,7 @@ import headerimg from '../assets/sigmund.jpg';
 import '../App.css';
 import blogs from '../blog_data/data';
 import Testimonial from './Testimonials/Testimonial';
+import Sponsors from './Sponsors/Sponsors';
 import Footer from './Footer/Footer';
 
 const Home = () => (
@@ -68,6 +68,7 @@ const Home = () => (
       </div>
     </div>
     <Testimonial />
+    <Sponsors />
     <Footer />
   </>
 );
